@@ -10,6 +10,23 @@ RecyclerView adalah sebuah komponen tampilan (**widget**) yang lebih canggih ket
 3.	**Dataset** : Kumpulan data yang dimiliki dan ingin ditampilkan. Bisa berupa array, list maupun obyek map.
 4.	**Item Animator** : Ini yang spesial. Kita bisa pasang animasi untuk tiap item di dalamnya. Contoh animasi yang umum seperti penambahan (add) dan penghapusan (removal) item. Kita akan mempelajari hal ini pada materi terpisah.
 
+###### Langkah-langkah mengimplementasikan recyclerview sebagai berikut : <br>
+1.	Tambahkan dependencies komponen recyclerview pada file build.gradle  level modul.
+2.	Tambahkan obyek RecyclerView di berkas layout xml dari activity / fragment.
+3.	Definisikan model kelas (POJO) yang akan digunakan sebagai data source.
+4.	Buat berkas layout xml untuk baris item di RecyclerView.
+5.	Buat sebuah kelas adapter yang inherit ke RecyclerView.Adapter dan ViewHolder untuk menampilkan tiap elemen data.
+6.	Definisikan obyek RecyclerView berikut dengan bentuk yang diinginkan (bisa dalam bentuk list, grid, atau staggered) dan selanjutnya pasang obyek adapter (binding) agar bisa menampilkan koleksi data ke dalam RecyclerView. 
+<br>
+
+### Result Recycler View Grid And List Mode
 ![Alt Text](https://github.com/adam033/RecyclerView/blob/master/Screenshot%20(436).png)
+List Mode (recyclerview) dengan data nama-nama pahlawan beserta biodata dan foto beliau dengan mode interface berupa list.
 ![Alt Text](https://github.com/adam033/RecyclerView/blob/master/Screenshot%20(437).png)
+Untuk mengganti bentuk interface selain List disini menggunakan menu berupa tombol (3 titik) untuk menunujukan beberapa menu interface lainya seperti **Grid** dan **CardView** (coming soon :D)
 ![Alt Text](https://github.com/adam033/RecyclerView/blob/master/Screenshot%20(438).png)
+Grid Mode (recyclerview) dengan data nama-nama pahlawan beserta biodata dan foto beliau dengan mode interface berupa Grid foto dengan model antarfoto diberi padding sehingga terkesan lebih rapi. <br>
+
+# TERIMA KASIH DAN SEMOGA BERMANFAAT :) 
+## @admhmwan @corektan
+
