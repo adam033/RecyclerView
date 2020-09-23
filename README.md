@@ -28,6 +28,7 @@ Untuk mengganti bentuk interface selain List disini menggunakan menu berupa tomb
 Grid Mode (recyclerview) dengan data nama-nama pahlawan beserta biodata dan foto beliau dengan mode interface berupa Grid foto dengan model antarfoto diberi padding sehingga terkesan lebih rapi. <br>
 ![Alt Text](https://github.com/adam033/RecyclerView/blob/master/Screenshot%20(440).png)
 ![Alt Text](https://github.com/adam033/RecyclerView/blob/master/Screenshot%20(443).png)
+![Alt Text](https://github.com/adam033/RecyclerView/blob/master/Screenshot%20(445).png)
 
 # TERIMA KASIH DAN SEMOGA BERMANFAAT :) 
 ## @admhmwan @corektan
